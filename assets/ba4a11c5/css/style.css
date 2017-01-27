@@ -140,8 +140,8 @@ footer .logo_footer a { display: inline-block; vertical-align: top; }
     footer ul a { font-size: 14px; } }
 header { box-shadow: 0px 0px 4px 2px rgba(50, 50, 50, 0.3); background: #ffca64; position: fixed; width: 100%; top: 0; z-index: 99; -webkit-transform: translatez(0); -ms-transform: translatez(0); transform: translatez(0); }
 header .container { background: #ffca64; position: relative; border-bottom: 1px solid; border-color: transparent; }
-header .logo { position: relative; z-index: 1; }
-header .logo img { display: inline-block; }
+header .logo { position: relative; z-index: 1; width: 300px;}
+header .logo img { display: inline-block;}
 header .search_big_line { margin-top: -81px; -webkit-transition: margin 0.3s ease; transition: margin 0.3s ease; padding: 15px 20px; padding-bottom: 15px; position: relative; border-bottom: 1px solid rgba(0, 0, 0, 0.1); padding-top: 15px; width: 100%; top: 0px; z-index: 2; background: #252525; }
 header .search_big_line.show { margin-top: 0; }
 header .search_big_line .big_line_bl { position: relative; margin: 0 15px; }
