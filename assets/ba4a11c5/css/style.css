@@ -223,13 +223,13 @@ header .social_btn a.search { background: black url(../../../images/search.svg) 
 .content_text .content_text_bl .content_social_btn_big ul li { border-radius: 5px 6px 6px 5px; height: 35px; width: 138px; display: inline-block; margin-bottom: 5px; -webkit-transition: background 0.5s ease; transition: background 0.5s ease; }
 .content_text .content_text_bl .content_social_btn_big ul li.fb_btn { background: #3c5a96; }
 .content_text .content_text_bl .content_social_btn_big ul li.fb_btn:hover { background: rgba(60, 90, 150, 0.7); }
-.content_text .content_text_bl .content_social_btn_big ul li.fb_btn a:before { padding-left: 15px; content: 'Поделиться'; line-height: 15px; width: 10px; height: 15px; background: url(../../../images/fb_btn.svg) no-repeat; background-size: auto 100%; margin-top: -8px; }
+.content_text .content_text_bl .content_social_btn_big ul li.fb_btn a:before { padding-left: 15px; content: 'Поділитися'; line-height: 15px; width: 10px; height: 15px; background: url(../../../images/fb_btn.svg) no-repeat; background-size: auto 100%; margin-top: -8px; }
 .content_text .content_text_bl .content_social_btn_big ul li.tw_btn { background: #1dadea; }
 .content_text .content_text_bl .content_social_btn_big ul li.tw_btn:hover { background: rgba(29, 173, 234, 0.7); }
-.content_text .content_text_bl .content_social_btn_big ul li.tw_btn a:before { padding-left: 20px; content: 'Поделиться'; width: 15px; height: 12px; background: url(../../../images/tw_btn.svg) no-repeat; background-size: auto 100%; margin-top: -5px; }
+.content_text .content_text_bl .content_social_btn_big ul li.tw_btn a:before { padding-left: 20px; content: 'Поділитися'; width: 15px; height: 12px; background: url(../../../images/tw_btn.svg) no-repeat; background-size: auto 100%; margin-top: -5px; }
 .content_text .content_text_bl .content_social_btn_big ul li.vk_btn { background: #5877a0; }
 .content_text .content_text_bl .content_social_btn_big ul li.vk_btn:hover { background: rgba(88, 119, 160, 0.7); }
-.content_text .content_text_bl .content_social_btn_big ul li.vk_btn a:before { padding-left: 20px; content: 'Поделиться'; width: 16px; height: 9px; background: url(../../../images/vk_btn.svg) no-repeat; background-size: auto 100%; margin-top: -4px; line-height: 9px; }
+.content_text .content_text_bl .content_social_btn_big ul li.vk_btn a:before { padding-left: 20px; content: 'Поділитися'; width: 16px; height: 9px; background: url(../../../images/vk_btn.svg) no-repeat; background-size: auto 100%; margin-top: -4px; line-height: 9px; }
 .content_text .content_text_bl .content_social_btn_big ul li a { position: relative; height: 100%; display: block; color: #3C3C3C; font-size: 11px; }
 .content_text .content_text_bl .content_social_btn_big ul li a:before { line-height: 10px; color: #fff; font-size: 10px; display: block; position: absolute; left: 15px; top: 50%; }
 .content_text .content_text_bl .content_social_btn_big ul li a span { -moz-box-sizing: content-box; box-sizing: content-box; line-height: 33px; border-radius: 0 5px 5px 0; border: 1px solid #eeeeee; border-left: 0; text-align: center; width: 35px; float: right; height: 33px; display: inline-block; background: #fff; position: relative; }
