@@ -131,7 +131,7 @@
     </div>
     <div class="squares">
         <div class="container" >
-            <div class="ll-container">
+            <div class="ll-container" id="load-more-questions-conteiner">
 
 <div class=" col-xs-12 col-md-6 all_width  left_ps orng  ">
     <div class="col-xs-6 img_title">
@@ -283,7 +283,7 @@
             <div class="loader9"></div>
         </div>
     </div>
-    <a class="btn ll-load-more" href="articles/loadMore.html" data-pjax="0" data-id="w0">Завантажити ще</a>
+    <a class="btn ll-load-more" id="load-more-questions">Завантажити ще</a>
 
             </div>
             <!--                <a href="#" class="btn">Загрузить еще</a>-->
@@ -292,53 +292,58 @@
     </div>
 
 <footer>
-    <div class="footer">
-        <div class="container">
+  <div class="footer">
+      <div class="container">
 
-            <div class="col-md-2 col-xs-12">
-                <div class="logo_footer">
-                    <a href="https://cvglobal.co/">
-                        <img src="images/logo_f.svg" alt="">
-                    </a>
-                    <a href="http://ccx.org.ua/">
-                        <img src="images/logo_ccx.svg" alt="">
-                    </a>
-                </div>
+          <div class="col-md-2 col-xs-12">
+            <div class="logo_footer">
+              <ul>
+                <li>
+                <a href="http://ccx.org.ua/" class="img-1" target="_blank">
+                    <img src="images/logo_ccx_2.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://cvglobal.co/" class="img-1" target="_blank">
+                    <img src="images/logo_f.svg" alt="">
+                </a>
+                </li>
+                <li>
+                <a href="https://missioneurasia.org/" class="" target="_blank">
+                    <img src="images/ME_logo_2.png" alt="">
+                </a>
+              </li>
+              </ul>
             </div>
-            <div class="col-md-8 col-md-offset-2 col-xs-12">
-                <div class="nav_footer">
-      <ul class="col-xs-4 col-md-3">
-          <li class="">
-      <a href="gospel.html">Євангеліє</a>
-  </li>
-  <li class="">
-      <a href="evidence.html" >Докази</a>
-  </li>
-  <li class="">
-      <a href="articles.html" >Статті</a>
-  </li>
+          </div>
+          <div class="col-md-8 col-md-offset-2 col-xs-12">
+              <div class="nav_footer">
+    <ul class="col-xs-4 col-md-3">
+        <li class="">
+    <a href="gospel.html">Євангеліє</a>
+</li>
+<li class="">
+    <a href="evidence.html" >Докази</a>
+</li>
+<li class="">
+    <a href="articles.html" >Статті</a>
+</li>
 
-  <li class="">
-      <a href="about.html" >Про проект</a>
-  </li>
-          <li>
-              <a href="questions.html">Запитання</a>
-          </li>
-      </ul>
-      <ul class="col-xs-4 col-md-3">
-          <li>
-              <a href="https://www.facebook.com/ccx.ukraine">Facebook</a>
-          </li>
-          <li>
-              <a href="https://vk.com/ccx.ukraine">Vkontakte</a>
-          </li>
-      </ul>
-      <ul class="col-xs-12 col-md-3">
-          <li class="copyright">
-              <span>Дизайн і розробка -</span>
-              <a href="#">CHEESEBANANA</a>
-          </li>
-      </ul>
+<li class="">
+    <a href="about.html" >Про проект</a>
+</li>
+        <li>
+            <a href="questions.html">Запитання</a>
+        </li>
+    </ul>
+    <ul class="col-xs-4 col-md-3">
+        <li>
+            <a href="https://www.facebook.com/ccx.ukraine" target="_blank">Facebook</a>
+        </li>
+        <li>
+            <a href="https://vk.com/ccx.ukraine" target="_blank">Vkontakte</a>
+        </li>
+    </ul>
 </div>
             </div>
 
@@ -394,6 +399,7 @@
 
         <script src="assets/cc3cc9dc/jquery.js"></script>
 <script src="assets/60ea3d99/js/loader.js"></script>
+<script src="js/loadMoreArticles.js"></script>
 <script src="assets/ba4a11c5/js/plugins.js"></script>
 <script src="assets/ba4a11c5/js/script.js"></script>
 <script src="assets/ba4a11c5/js/history.js"></script>
